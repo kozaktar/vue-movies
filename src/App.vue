@@ -1,7 +1,23 @@
 <template>
-  <div>hello</div>
+  <Nav/>
   <router-view/>
 </template>
+
+<script>
+import Nav from '@/components/Nav.vue';
+
+export default {
+  name:'App',
+
+  components:{
+    Nav
+  },
+
+  setup() {
+    
+  },
+}
+</script>
 
 <style>
 </style>
