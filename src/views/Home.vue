@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import { reactive, toRefs } from "@vue/composition-api";
+import { reactive, toRefs } from "vue";
 import LatestRecipes from '@/components/LatestRecipes.vue';
 import MostPopularRecipes from '@/components/MostPopularRecipes.vue';
 

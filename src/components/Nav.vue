@@ -28,9 +28,12 @@
 </template>
 
 <script>
-import { reactive, toRefs } from "@vue/composition-api";
+import { reactive, toRefs } from "vue";
 
 export default {
+
+  name: "Vue",
+
   setup() {
     const state = reactive({
       count: 0,

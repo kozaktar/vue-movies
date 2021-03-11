@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="" alt="stew" />
+    <img src="@/assets/logo.png" alt="stew" />
     <div>
       <span>5 Bean Chili Stew</span>
       <span>Recipe by Mario</span>
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { reactive, toRefs } from "@vue/composition-api";
+import { reactive, toRefs } from "vue";
 
 export default {
   setup() {

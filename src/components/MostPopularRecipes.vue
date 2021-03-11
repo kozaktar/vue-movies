@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import { reactive, toRefs } from "@vue/composition-api";
+import { reactive, toRefs } from "vue";
 import Card from "@/components/Card.vue";
 
 export default {
