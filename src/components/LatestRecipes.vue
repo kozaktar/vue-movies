@@ -1,9 +1,16 @@
 <template>
   <div>
-    <h4>Latest Recipes</h4>
+    <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">
+      Latest Recipes
+    </h4>
 
-    <div>
+    <div class="mt-8 grid lg:grid-cols-3 gap-10">
       <!-- cards go here -->
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
       <Card />
     </div>
   </div>

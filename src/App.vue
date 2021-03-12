@@ -1,6 +1,8 @@
 <template>
+<div class="bg-gray-100 grid md:grid-cols-3">
   <Nav/>
   <router-view/>
+</div>
 </template>
 
 <script>
