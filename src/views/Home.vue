@@ -11,7 +11,7 @@
           <h2 class="text-gray-800 text-2xl font-bold">Recipes</h2>
           <h3 class="tet-xl font-semibold">For Ninjas</h3>
           <div class="flex justify-center mt-3">
-              <input type="text" placeholder="Search recipes" class="rounded-full h-12 border-gray-900 border-2 w-1/2 p-5 outline-none focus-within:border-primary">
+              <input type="text" placeholder="Search recipes" class="rounded-full h-12 border-gray-900 border w-1/2 p-5 outline-none focus-within:border-primary shadow-md">
           </div>
         </header>
         <LatestRecipes/>
