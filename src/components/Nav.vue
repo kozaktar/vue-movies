@@ -5,7 +5,7 @@
         <h1
           class="font-bold uppercase p-4 text-2xl text-gray-600 hover:text-gray-800"
         >
-          <a href="/">Food Ninja</a>
+          <a href="/">Movie Ninja</a>
         </h1>
         <div class="px-4 cursor-pointer md:hidden" @click="toggleMenu">
             <img src="../assets/menu.svg" alt="" class="w-6">
